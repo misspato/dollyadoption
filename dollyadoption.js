@@ -60,6 +60,17 @@ $('.cover-doll').eq(n).addClass('today');
 $('.header-bkg:not(.today)').remove();
 $('.cover-doll:not(.today)').remove();
 
+
+// Etsy Affiliate ////////////////////////////////////////////////////////////////////////////////////
+
+
+$( document ).ready(function() {
+    $('a[href*="etsy"]').on('click', function(e) {
+        var alink = 'https://ad.zanox.com/ppc/?40572344C628959790&ulp=[[' + $(this).attr('href') + ']]';
+        $(this).attr('href', alink);
+    });
+});
+
 //////////////////////////////////////////////////////////////////////
 
 
@@ -148,6 +159,10 @@ var myLazyLoad = new LazyLoad();
 
 
 ///////////////
+
+
+
+
 
 
 
