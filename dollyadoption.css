@@ -715,6 +715,8 @@ small, .small, .t7, dt, figcaption { font-size: 1.3rem; line-height: 1.4; }
 
 .text-normal { font-weight: normal; }
 
+.link-customdolls:hover { text-decoration: none !important; }
+
 .btn, button { display: inline-block; letter-spacing: 1px; border-radius: 5em; line-height: 1.5; margin: 0; font-weight: bold; font-size: 1.4rem; -webkit-transition: 250ms; transition: 250ms; height: auto; }
 
 .btn:hover, .btn:focus, button:hover, button:focus { cursor: pointer !important; }
