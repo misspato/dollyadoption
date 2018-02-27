@@ -66,7 +66,7 @@ $('.cover-doll:not(.today)').remove();
 
 $( document ).ready(function() {
     $('a[href*="etsy"]').on('click', function(e) {
-        var alink = 'https://ad.zanox.com/ppc/?40572344C628959790&ulp=[[' + $(this).attr('href') + ']]';
+        var alink = 'https://www.awin1.com/cread.php?awinmid=10723&awinaffid=349105&clickref=DollyAdoption&p=' + $(this).attr('href');
         $(this).attr('href', alink);
     });
 });
@@ -159,41 +159,3 @@ var myLazyLoad = new LazyLoad();
 
 
 ///////////////
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
